@@ -1,0 +1,43 @@
+{
+  "name": "node-tvmaze",
+  "version": "1.0.0",
+  "description": "A Promise based node.js wrapper for the public TVmaze API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennyist/node-tvmaze.git"
+  },
+  "keywords": [
+    "tv",
+    "maze",
+    "tvmaze",
+    "tvmaze api",
+    "api",
+    "node tvmaze",
+    "imdb",
+    "thetvdb",
+    "tvrage",
+    "promise"
+  ],
+  "author": {
+    "name" : "Tristan 'Kennyist' Cunningham",
+    "email" : "tristanjc@live.com",
+    "url" : "http://tristanjc.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kennyist/node-tvmaze/issues"
+  },
+  "homepage": "https://github.com/kennyist/node-tvmaze#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
